@@ -1,0 +1,26 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+button {
+  background-color: rgb(240, 94, 118);
+  border: none;
+  padding: 20px;
+  color: white;
+  margin-top: 20px;
+  border-radius: 8px;
+  margin-left: 10px;
+  box-shadow: 6px 6px black;
+}
+button:hover {
+  cursor: pointer;
+  background-color: rgb(248, 144, 161);
+}
